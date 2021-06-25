@@ -101,7 +101,7 @@ nav {
   font-size: 1rem;
   color: rgb(100, 100, 100);
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 1.5rem;
 }
 
@@ -295,9 +295,9 @@ nav {
 
   .texto {
     margin: 1rem 5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 2rem;
   }
 
@@ -363,5 +363,11 @@ nav {
   }
   .texto-oscuro {
     color: rgb(163, 163, 163);
+  }
+}
+
+@media (max-width: 650px) {
+  .reproductor {
+    width: 80vw;
   }
 }
