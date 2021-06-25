@@ -370,4 +370,25 @@ nav {
   .reproductor {
     width: 80vw;
   }
+  .cuadro-letra-cancion {
+    width: calc(100vw - 4rem);
+    margin: 2rem;
+    height: 80vh;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+  }
+
+  .div-letra-cancion {
+    font-size: 2.5rem;
+  }
+  .cuadro-letra-cancion-btn {
+    width: 8;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+
+  .letra-cancion-btn-texto {
+    font-size: 2rem;
+  }
 }
