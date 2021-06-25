@@ -193,6 +193,78 @@ nav {
   margin: 5rem 5%;
 }
 
+/*Canción*/
+
+:root {
+  --dark-blue: #07014c;
+  --whitesmoke: #d9d9d9;
+}
+
+.dark-blue {
+  background-color: black;
+}
+
+.reproductor {
+  width: 20vw;
+  margin: 1rem;
+  margin-left: 2rem;
+  background-color: var(--whitesmoke);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.reproductor-texto {
+  color: var(--dark-blue);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reproductor-img {
+  cursor: pointer;
+}
+
+/*Cuadro*/
+
+.cuadro-letra-cancion {
+  width: calc(100vw - 4rem);
+  margin: 2rem;
+  height: 80vh;
+  background-color: var(--dark-blue);
+  border-radius: 1rem;
+}
+
+.div-letra-cancion {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: var(--whitesmoke);
+  padding-top: 15%;
+}
+.cuadro-letra-cancion-btn {
+  display: block;
+  width: 15rem;
+  background-color: var(--whitesmoke);
+  color: var(--dark-blue);
+  margin: auto;
+  margin-top: 10%;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.letra-cancion-btn-texto {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.div-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
 /*Responsive*/
 
 @media (min-width: 650px) {
