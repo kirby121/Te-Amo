@@ -10,7 +10,8 @@ const $menuIcono = document.querySelector(".logo-menu"),
           $modoNocturno1 = document.querySelector(".modo-nocturno1"),
           $razones = document.querySelector("#razones"),
           $cosas = document.querySelector("#cosas"),
-          $cancion = document.querySelector("#cancion");
+          $cancion = document.querySelector("#cancion"),
+          $solBtn = document.querySelector("#sol_btn");
 
 function abrirMenu() {
   $menu.classList.toggle("display-none");
@@ -42,6 +43,10 @@ $cosas.addEventListener("click" , () => {
 });
 $cancion.addEventListener("click" , () => {
   location.href="cancion.html"
+});
+
+$solBtn.addEventListener("click" , () => {
+  location.href="sol_btn.html"
 });
 
 function playlist() {
